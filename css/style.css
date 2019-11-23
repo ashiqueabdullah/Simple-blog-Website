@@ -286,5 +286,47 @@ body {
 	padding: 0px;
 }
 
+input[type="text"],input[type="email"]{
+    height: 30px;
+    width: 45%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+label{
+	color:#2894C8;
+	font-size: 16px;
+	align-items: center;
+}
+input[type="submit"] {
+    padding: 10px;
+    color: white;
+    background:#2894C8;
+    border: none;
+}
 
-
+.related_post h2{
+	background: #2894C8;
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+	margin:0px;
+	font-size: 22px;
+	box-shadow: 2px 2px 3px gray;
+}
+.related_post img{
+	width: 31%;
+	float: left;
+	padding: 5px;
+	border: 1px solid #2894C8;
+	margin-top: 15px;
+	margin-left: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	transition: .3s;	
+}
+.related_post img:hover{
+	box-shadow: 1px 1px 3px gray;
+}
